@@ -1,0 +1,45 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial;
+}
+
+.hero{
+height:100vh;
+background-image:url("ChatGPT\ Image\ 13\ de\ mar.\ de\ 2026\,\ 21_44_56.png");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+padding-left:80px;
+}
+
+.conteudo{
+max-width:500px;
+}
+
+h1{
+font-size:70px;
+color:#ff7a00;
+}
+
+p{
+font-size:22px;
+margin:20px 0;
+color:#333;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+background:#ff7a00;
+color:white;
+border-radius:10px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e56700;
+}

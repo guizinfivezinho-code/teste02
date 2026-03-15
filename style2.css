@@ -1,0 +1,139 @@
+body{
+
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:linear-gradient(135deg,#a37802,#d9a441);
+}
+
+/* CARDAPIO */
+
+.cardapio{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+text-align:center;
+}
+
+/* TITULO */
+
+.cardapio h1{
+font-size:60px;
+color:#ff7a00;
+margin-bottom:20px;
+animation:fade 1s ease;
+}
+
+/* AVISO */
+
+.aviso{
+background:#fff3e6;
+padding:15px;
+border-radius:10px;
+margin-bottom:40px;
+font-weight:600;
+}
+
+/* CATEGORIA */
+
+.categoria{
+background:white;
+margin:30px auto;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+transition:0.3s;
+animation:fade 1s ease;
+}
+
+/* HOVER */
+
+.categoria:hover{
+transform:translateY(-6px) scale(1.02);
+box-shadow:0 20px 40px rgba(0,0,0,0.3);
+}
+
+/* TITULOS */
+
+.categoria h2{
+color:#ff7a00;
+margin-bottom:20px;
+}
+
+/* LISTA */
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+padding:10px;
+border-bottom:1px solid #eee;
+transition:0.2s;
+}
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+background:#ff7a00;
+color:white;
+border-radius:10px;
+cursor:pointer;}
+
+li:hover{
+background:#fff3e6;
+padding-left:15px;
+}
+
+/* TABELA */
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th{
+background:#ff7a00;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+border-bottom:1px solid #eee;
+}
+
+tr:hover{
+background:#fff3e6;
+}
+
+/* PREÇO */
+
+.preco{
+margin-top:15px;
+font-weight:bold;
+color:#ff7a00;
+}
+
+/* ANIMAÇÃO */
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+.cardapio h1{
+font-size:40px;
+}
+
+}
