@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cardápio Doce Infância</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* FUNDO */
+
+body{
+background:linear-gradient(135deg,#a37802,#d9a441);
+padding:10px;
+}
+
+/* INSTAGRAM */
+
+.instagram{
+position:fixed;
+left:15px;
+bottom:15px;
+background:white;
+padding:10px;
+border-radius:50%;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+z-index:1000;
+}
+
+.instagram img{
+width:35px;
+}
+
+/* CARDÁPIO */
+
+.cardapio{
+max-width:900px;
+margin:auto;
+text-align:center;
+}
+
+.cardapio h1{
+font-size:40px;
+color:#ff7a00;
+margin-bottom:30px;
+}
+
+/* CATEGORIAS */
+
+.categoria{
+background:white;
+padding:25px;
+margin-bottom:25px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+text-align:left;
+}
+
+.categoria h2{
+color:#ff7a00;
+margin-bottom:15px;
+font-size:22px;
+}
+
+/* LISTA */
+
+ul{
+list-style:none;
+}
+
+li{
+padding:10px;
+border-bottom:1px solid #eee;
+}
+
+label{
+display:flex;
+align-items:center;
+gap:10px;
+font-size:16px;
+cursor:pointer;
+}
+
+input{
+width:18px;
+height:18px;
+}
+
+/* BOTÃO */
+
+.botao{
+margin-top:30px;
+}
+
+button{
+width:100%;
+padding:18px;
+font-size:20px;
+background:#25D366;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1ebe5d;
+}
+
+/* RESPONSIVO CELULAR */
+
+@media (max-width:600px){
+
+.cardapio h1{
+font-size:32px;
+}
+
+.categoria{
+padding:20px;
+}
+
+label{
+font-size:15px;
+}
+
+button{
+font-size:18px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<a href="https://instagram.com/doceinfanciaconfeitariacwb" target="_blank" class="instagram">
+<img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+</a>
+
+<section class="cardapio">
+
+<h1>🎂 Cardápio Doce Infância</h1>
+
+<div class="categoria">
+
+<h2>🍰 Bolos (preço por KG)</h2>
+
+<ul>
+
+<li><label><input type="checkbox" value="Bolo Abacaxi com Leite Ninho 69,90kg">Bolo Abacaxi com Leite Ninho — 69,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Abacaxi com Suspiro 69,90kg">Bolo Abacaxi com Suspiro — 69,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Abacaxi com Creme 65,90kg">Bolo Abacaxi com Creme — 65,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Abacaxi com Brigadeiro 69,90kg">Bolo Abacaxi com Brigadeiro — 69,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Abacaxi com Coco 69,90kg">Bolo Abacaxi com Coco — 69,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Abacaxi com Nata 79,90kg">Bolo Abacaxi com Nata — 79,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Alpino 69,90kg">Bolo Alpino — 69,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Alpino com Ganache 75,90kg">Bolo Alpino com Ganache — 75,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Alpino com Laka 75,90kg">Bolo Alpino com Laka — 75,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Alpino com Morango 69,90kg">Bolo Alpino com Morango — 69,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Alpino com Leite Ninho 69,90kg">Bolo Alpino com Leite Ninho — 69,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Arco Íris 69,90kg">Bolo Arco-Íris — 69,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Butter Cream 89,90kg">Bolo Butter Cream — 89,90kg</label></li>
+<li><label><input type="checkbox" value="Bolo Beijinho 65,90kg">Bolo Beijinho — 65,90kg</label></li>
+
+</ul>
+
+</div>
+
+<div class="categoria">
+
+<h2>🍬 Doces Tradicionais</h2>
+
+<ul>
+
+<li><label><input type="checkbox" value="Brigadeiro">Brigadeiro</label></li>
+<li><label><input type="checkbox" value="Dois Amores">Dois Amores</label></li>
+<li><label><input type="checkbox" value="Beijinho">Beijinho</label></li>
+<li><label><input type="checkbox" value="Ninho">Ninho</label></li>
+<li><label><input type="checkbox" value="Oreo">Oreo</label></li>
+<li><label><input type="checkbox" value="Cajuzinho">Cajuzinho</label></li>
+<li><label><input type="checkbox" value="Strogonoff Amendoim">Strogonoff Amendoim</label></li>
+<li><label><input type="checkbox" value="Crespinho">Crespinho</label></li>
+<li><label><input type="checkbox" value="Moranguinho">Moranguinho</label></li>
+
+</ul>
+
+<p>Doces 10g — R$120 o cento</p>
+<p>Doces 17g — R$190 o cento</p>
+
+</div>
+
+<div class="categoria">
+
+<h2>🥟 Salgados Fritos</h2>
+
+<ul>
+
+<li><label><input type="checkbox" value="Coxinha">Coxinha</label></li>
+<li><label><input type="checkbox" value="Bolinha de queijo">Bolinha de queijo</label></li>
+<li><label><input type="checkbox" value="Kibe">Kibe</label></li>
+<li><label><input type="checkbox" value="Risoles de carne">Risoles de carne</label></li>
+<li><label><input type="checkbox" value="Croquete queijo e presunto">Croquete queijo e presunto</label></li>
+<li><label><input type="checkbox" value="Enroladinho vina">Enroladinho vina</label></li>
+<li><label><input type="checkbox" value="Bolinho carne com queijo">Bolinho carne com queijo</label></li>
+
+</ul>
+
+</div>
+
+<div class="categoria">
+
+<h2>🥐 Salgados Assados</h2>
+
+<ul>
+
+<li><label><input type="checkbox" value="Doguinho">Doguinho — cento R$150</label></li>
+<li><label><input type="checkbox" value="Hamburguinho">Hamburguinho — cento R$150</label></li>
+<li><label><input type="checkbox" value="Esfirra">Esfirra — cento R$150</label></li>
+<li><label><input type="checkbox" value="Rols">Rols — cento R$150</label></li>
+
+</ul>
+
+</div>
+
+<div class="categoria">
+
+<h2>🍕 Mini Pizza</h2>
+
+<ul>
+
+<li><label><input type="checkbox" value="Mini pizza calabresa">Calabresa</label></li>
+<li><label><input type="checkbox" value="Mini pizza presunto e queijo">Presunto e queijo</label></li>
+<li><label><input type="checkbox" value="Mini pizza frango com requeijão">Frango com requeijão</label></li>
+
+</ul>
+
+<p>Cento R$130</p>
+
+</div>
+
+<div class="categoria">
+
+<h2>🥧 Outros</h2>
+
+<ul>
+
+<li><label><input type="checkbox" value="Folhado">Folhado — cento R$180</label></li>
+<li><label><input type="checkbox" value="Mini Quiche">Mini Quiche — cento R$170</label></li>
+<li><label><input type="checkbox" value="Pastel de Nata">Pastel de Nata — cento R$190</label></li>
+<li><label><input type="checkbox" value="Empadinha de Frango">Empadinha de Frango — cento R$250</label></li>
+<li><label><input type="checkbox" value="Empadinha de Palmito">Empadinha de Palmito — cento R$290</label></li>
+
+</ul>
+
+</div>
+
+<div class="botao">
+<button onclick="pedido()">Fazer Pedido no WhatsApp</button>
+</div>
+
+</section>
+
+<script>
+
+function pedido(){
+
+let itens=document.querySelectorAll('input:checked')
+
+if(itens.length===0){
+alert("Selecione pelo menos um item do cardápio")
+return
+}
+
+let mensagem="Olá, gostaria de fazer um pedido:%0A%0A"
+
+itens.forEach(item=>{
+mensagem+="• "+item.value+"%0A"
+})
+
+let numero="5541999100062"
+
+window.open("https://wa.me/"+numero+"?text="+mensagem)
+
+}
+
+</script>
+
+</body>
+</html>
+```
